@@ -19,6 +19,7 @@ else if (en) count <= count + 1;   // increments, wraps 1111 -> 0000
 else count <= count;                // holds present value
 
 ## Design / RTL Program
+
 // gedit up_counter.v
  
 module up_counter (
@@ -36,6 +37,7 @@ module up_counter (
             count <= count;          // hold
     end
 endmodule
+
 
 
 
